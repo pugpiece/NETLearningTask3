@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.ConsolePL", "Bruskov.Users\Users.ConsolePL.csproj", "{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{921C14C0-DEFF-4ED9-9EA2-C232B61DC522}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{79984E39-5AC6-453C-A3FB-4E02D14AC89E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{43B0AA08-2DAB-4544-A00A-81B938462EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{C0CC074F-12DA-4713-A757-121F560E67B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.Entities", "Users.Entities\Users.Entities.csproj", "{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.DAL", "Users.DAL\Users.DAL.csproj", "{E69470BE-2789-4E2D-B6A8-2DB876A60681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users.BLL", "Users.BLL\Users.BLL.csproj", "{502D4407-F097-4CF5-B701-16A8F875B2F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQlScripts", "SQlScripts", "{8518DB2B-8CD2-4B34-8945-75043A4F8184}"
+	ProjectSection(SolutionItems) = preProject
+		SQLScripts\CreateDataBase.sql = SQLScripts\CreateDataBase.sql
+		SQLScripts\CreateProc.sql = SQLScripts\CreateProc.sql
+		SQLScripts\FillTables.sql = SQLScripts\FillTables.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69470BE-2789-4E2D-B6A8-2DB876A60681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69470BE-2789-4E2D-B6A8-2DB876A60681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69470BE-2789-4E2D-B6A8-2DB876A60681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69470BE-2789-4E2D-B6A8-2DB876A60681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502D4407-F097-4CF5-B701-16A8F875B2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502D4407-F097-4CF5-B701-16A8F875B2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502D4407-F097-4CF5-B701-16A8F875B2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502D4407-F097-4CF5-B701-16A8F875B2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD9BFB04-1DF7-46CE-8B90-CFCEAFABB34A} = {C0CC074F-12DA-4713-A757-121F560E67B6}
+		{5E75FD0A-8DCF-49A4-B6DC-40F7E2103536} = {43B0AA08-2DAB-4544-A00A-81B938462EC0}
+		{E69470BE-2789-4E2D-B6A8-2DB876A60681} = {79984E39-5AC6-453C-A3FB-4E02D14AC89E}
+		{502D4407-F097-4CF5-B701-16A8F875B2F7} = {921C14C0-DEFF-4ED9-9EA2-C232B61DC522}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE723BEE-3F3B-4F57-9B81-3335DAC8E573}
+	EndGlobalSection
+EndGlobal
